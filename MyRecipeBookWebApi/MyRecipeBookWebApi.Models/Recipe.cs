@@ -21,8 +21,8 @@ namespace MyRecipeBookWebApi.Models
         [DataMember(Name = "deatails")]
         public string Details { get; set; }
 
-        [DataMember(Name = "category")]
-        public string Category { get; set; }
+        [DataMember(Name = "categoryId")]
+        public int CategoryId { get; set; }
 
         [DataMember(Name = "ingredients")]
         public ICollection<Ingredient> Ingredients 
