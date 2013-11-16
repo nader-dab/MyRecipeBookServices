@@ -65,6 +65,7 @@ namespace MyRecipeBookWebApi.Controllers
             }
         };
 
+        [HttpGet]
         public IQueryable<Recipe> Get()
         {
             return recipes.AsQueryable();
