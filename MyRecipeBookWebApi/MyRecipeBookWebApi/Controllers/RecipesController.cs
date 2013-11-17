@@ -15,7 +15,7 @@ namespace MyRecipeBookWebApi.Controllers
             new Recipe()
             {
                 Id = 0,
-                CategoryId = 2,
+                CategoryId = 3,
                 Name = "Miso Soup",
                 Details = "Miso soup is a traditional Japanese soup consisting of a stock called dashi into which softened miso paste is mixed. Many ingredients are added depending on regional and seasonal recipes, and personal preference.",
                 Ingredients = new List<Ingredient>()
@@ -32,7 +32,7 @@ namespace MyRecipeBookWebApi.Controllers
             new Recipe()
             {
                 Id = 1,
-                CategoryId = 1,
+                CategoryId = 2,
                 Name = "Holiday Fudge Bites",
                 Details = @"LINE 8-inch square pan with foil, with ends of foil extending over sides. Microwave first 4 ingredients in large microwaveable bowl on HIGH 2 min. or until butter is melted; stir until chocolate is completely melted.
 
@@ -52,7 +52,7 @@ namespace MyRecipeBookWebApi.Controllers
             new Recipe()
             {
                 Id = 2,
-                CategoryId = 6,
+                CategoryId = 7,
                 Name = "Baked Garlic Parmesan Chicken",
                 Details = "Serve with a salad and pasta or rice for a quick, scrumptious dinner.",
                 Ingredients = new List<Ingredient>()
